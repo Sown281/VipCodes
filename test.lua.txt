@@ -1,4 +1,4 @@
-local Allowed = loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Whitelist.lua", true))()
+local Allowed = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sown281/VipCodes/refs/heads/main/text.txt",true))()
 if Allowed[game.Players.LocalPlayer.Name] then
 wait(1)
 
