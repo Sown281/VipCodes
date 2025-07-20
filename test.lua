@@ -4,7 +4,7 @@ wait(1)
 
 if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
 
-if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam") then
+--[[if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam") then
 	repeat wait()
 		if game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("Main").ChooseTeam.Visible == true then
 			if _G.Team == "Pirate" then
@@ -23,7 +23,7 @@ if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseT
 		end
 	until game.Players.LocalPlayer.Team ~= nil and game:IsLoaded()
 end
-
+]]--
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
     _G.Color = Color3.fromRGB(0,0,0)
     if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
