@@ -1,3 +1,4 @@
 return {
-    ["hdehvd1"] = true
+    ["hdehvd1"] = true,
+    ["eiisdovis"] = true
 }
